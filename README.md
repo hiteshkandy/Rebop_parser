@@ -13,7 +13,9 @@ Example Topo file structure for a 4-node GRN.
 
 Here, under 'Type', '1' represents Activation, '2' represents Inhibition.
 In our formalism for interpreting a GRN as a rebop reaction to be simulated, the following assumptions have been made:
+
     1) Activation - Target node is generated at rate: r = k * {Source}, where k is a adjustable rate parameter.
+    
     2) Inhibition - Target node is consumed at rate: r = k * {Source} * {Target}, the inclusion of Target node concentration is to avoid negative populations.
     
 ![Logo](formalism_toyGRN.jpeg)
