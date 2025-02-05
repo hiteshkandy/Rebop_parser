@@ -1,5 +1,5 @@
 # Rebop_Parser
-### Tool to convert a GRN .topo file to a Rebop reaction (formalism predefined)
+### Tool to convert a GRN .topo file to a Rebop reaction (predefined formalism)
 
 ## What is rebop?
 'rebop' is a fast stochastic simulator for well-mixed chemical reaction networks.
