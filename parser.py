@@ -24,11 +24,11 @@ def read_topo_file(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
-        # Skip the header line
+        
         for line in lines[1:]:  
-            row = re.split(r'\s+', line.strip())  # Split by any whitespace
+            row = re.split(r'\s+', line.strip()) 
             if len(row) == 3:
                 source, target, type_value = row
-                network.append([source, target, int(type_value)])  # Convert Type to int
+                network.append([source, target, int(type_value)])  
                 
     return network
